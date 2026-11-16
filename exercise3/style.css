@@ -1,0 +1,149 @@
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  background-color: #f8fafc;
+  color: #111827;
+  line-height: 1.5;
+}
+
+h2 {
+  color: #111827;
+}
+
+.material-card {
+  background-color: #ae50e4;
+  padding: 20px;
+  border-radius: 18px;
+}
+
+.material-shelf p {
+  color: #1652a7;
+}
+
+.material-card h3 {
+  margin-top: 0;
+  color: #07ce32;
+}
+
+.quick-nav {
+  padding: 20px;
+  background-color: rgb(234, 227, 166);
+}
+
+.quick-nav>a {
+  margin-right: 32px;
+  color: #e814c8;
+  font-weight: 900;
+  text-decoration: none;
+}
+
+.intro-panel,
+.material-shelf,
+.downloads,
+.page-footer,
+.tools {
+  max-width: 1000px;
+  margin: 32px auto;
+  padding: 0 24px;
+}
+
+.intro-panel {
+  padding-top: 48px;
+}
+
+.kicker {
+  color: #2563eb;
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 0.08em;
+}
+
+.material-shelf {
+  background-color: #eff6ff;
+  padding: 32px;
+  border-radius: 24px;
+}
+
+.shelf-intro {
+  max-width: 620px;
+}
+
+.material-list {
+  margin-top: 24px;
+}
+
+.material-card {
+  background-color: rgb(169, 227, 231);
+  padding: 20px;
+  border: 1px solid #dbeafe;
+  border-radius: 18px;
+  margin-top: 16px;
+}
+
+.lesson-link {
+  display: inline-block;
+  margin-top: 12px;
+  padding: 10px 14px;
+  background-color: #3b82f6;
+  color: white;
+  border-radius: 999px;
+  text-decoration: none;
+  font-weight: 700;
+}
+
+.material-shelf .lesson-link {
+  background-color: #d15a5a;
+}
+
+.lesson-link:hover,
+.lesson-link:focus {
+  background-color: #5277da;
+  outline: 12px solid #ebe88e;
+  outline-offset: 3px;
+}
+
+a {
+  color: #2563eb;
+  background-color: transparent;
+}
+
+.material-card {
+  border: 5px solid #93c5fd;
+}
+
+.downloads a {
+  background-color: #07ce32;
+}
+
+.material-card p {
+  color: #03bce5
+}
+
+.material-shelf>p {
+  background-color: #b7bc59;
+}
+
+.quick-nav>a:hover,
+.quick-nav>a:focus {
+  background-color: #e8e114;
+  outline: 6px solid #07ce32;
+}
+
+.tools {
+  background-color: #80d6f5;
+  padding: 24px;
+  border: 2px;
+  border-radius: 18px;
+  margin-top: 16px;
+}
+
+.tools a {
+  color: #07ce32;
+}
+
+.tools>a:hover,
+.tools>a:focus {
+  background-color: #e01010;
+  outline: 8px solid #1652a7;
+}
+
