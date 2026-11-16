@@ -1,0 +1,149 @@
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  background-color: #f8fafc;
+  color: #111827;
+  line-height: 1.5;
+}
+
+h2 {
+  color: #111827;
+}
+
+.feature-card {
+  background-color: #ae50e4;
+  padding: 20px;
+  border-radius: 18px;
+}
+
+.features p {
+  color: #1652a7;
+}
+
+.feature-card h3 {
+  margin-top: 0;
+  color: #07ce32;
+}
+
+.site-nav {
+  padding: 20px;
+  background-color: green;
+}
+
+.site-nav>a {
+  margin-right: 32px;
+  color: #e814c8;
+  font-weight: 900;
+  text-decoration: none;
+}
+
+.hero,
+.features,
+.resources,
+.site-footer,
+.tools {
+  max-width: 1000px;
+  margin: 32px auto;
+  padding: 0 24px;
+}
+
+.hero {
+  padding-top: 48px;
+}
+
+.eyebrow {
+  color: #2563eb;
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 0.08em;
+}
+
+.features {
+  background-color: #eff6ff;
+  padding: 32px;
+  border-radius: 24px;
+}
+
+.shelf-intro {
+  max-width: 620px;
+}
+
+.card-grid {
+  margin-top: 24px;
+}
+
+.feature-card {
+  background-color: rgb(169, 227, 231);
+  padding: 20px;
+  border: 1px solid #dbeafe;
+  border-radius: 18px;
+  margin-top: 16px;
+}
+
+.button-link {
+  display: inline-block;
+  margin-top: 12px;
+  padding: 10px 14px;
+  background-color: #3b82f6;
+  color: white;
+  border-radius: 999px;
+  text-decoration: none;
+  font-weight: 700;
+}
+
+.features .button-link {
+  background-color: #d15a5a;
+}
+
+.button-link:hover,
+.button-link:focus {
+  background-color: #5277da;
+  outline: 12px solid #ebe88e;
+  outline-offset: 3px;
+}
+
+a {
+  color: #2563eb;
+  background-color: transparent;
+}
+
+.feature-card {
+  border: 5px solid #93c5fd;
+}
+
+.resources a {
+  background-color: #07ce32;
+}
+
+.feature-card p {
+  color: #03bce5
+}
+
+.features>p {
+  background-color: #b7bc59;
+}
+
+.site-nav>a:hover,
+.site-nav>a:focus {
+  background-color: yellow;
+  outline: 6px solid #07ce32;
+}
+
+.tools {
+  background-color: #80d6f5;
+  padding: 24px;
+  border: 2px;
+  border-radius: 18px;
+  margin-top: 16px;
+}
+
+.tools a {
+  color: #07ce32;
+}
+
+.tools>a:hover,
+.tools>a:focus {
+  background-color: #e01010;
+  outline: 8px solid #1652a7;
+}
+
