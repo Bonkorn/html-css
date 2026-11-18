@@ -1,7 +1,7 @@
 # CSS foundations: my answers
 
 ## 1. Which line in `index.html` connects the CSS file?
-HERE in `<link rel="stylesheet" href="HERE">`
+line 8, `<link rel="stylesheet" href="style.css">`
 
 ## 2. In `body { background-color: #ecfdf5; }`, what is the selector?
 body in .css file selects `<body>` in .html file, and the background color will changed to #ecfdf5

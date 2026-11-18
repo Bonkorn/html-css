@@ -1,7 +1,7 @@
 # Style profile page: my answers
 
 ## 1. Which line in your HTML connects `style.css`?
-HERE in `<link rel="stylesheet" href="HERE">`
+line 8, `<link rel="stylesheet" href="style.css">`
 
 ## 2. Which selector styles the full page or the page background?
 `<body>`
