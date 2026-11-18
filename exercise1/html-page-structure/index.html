@@ -4,31 +4,36 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Jason's profile</title>
+  <link rel="icon" href="images/favicon.png">
+  <title>Jason's Profile</title>
 </head>
 
 <body>
   <h2>My profile photo</h2>
-  <img src="images/red_car_beach.jpg" alt="Red, mercedes, car parked on sand, beach" width="220">
+  <img src="images/red_car_beach.jpg" alt="Red, mercedes, car parked on sand, beach" width="220" height="auto">
+  <!-- because the aspect ratio of image is not 1:1,
+  so i'll be using "auto" for the image to retain its aspect ratio automatically
+  without needing manually calculate its corresponding height on my own nor
+  entering non-corresponding height that might shrink/stretch the image. -->
   <h1>Jason Yang</h1>
 
-  <h2>About me</h2>
+  <h2>About Me</h2>
   <p>
     I enjoy driving car, playing games.
   </p>
 
-  <h2>What I am learning</h2>
+  <h2>What I am Learning</h2>
   <p>
     I am learning <strong>HTML</strong> and <em>CSS</em>.
   </p>
 
-  <h2>My favourite websites</h2>
+  <h2>My Favourite Websites</h2>
   <ul>
     <li><a href="https://www.youtube.com/">YouTube</a></li>
     <li><a href="https://open.spotify.com/">Spotify</a></li>
   </ul>
 
-  <h2>How to make a tea</h2>
+  <h2>How to make a Tea</h2>
   <ol>
     <li>Put the tea bag into cup,</li>
     <li>Pour hot water into cup.</li>
@@ -36,12 +41,11 @@
   </ol>
 
   <h2>Contact</h2>
-  <p>If you would to contact me, enter your email here.</p>
-
+  <p>If you would like to contact me, enter your email here.</p>
   <label for="email">Email address</label>
   <input id="email" type="text" placeholder="hello@world.com">
 
-  <h2>Language proficency</h2>
+  <h2>My Language Proficency</h2>
   <table>
     <thead>
       <tr>
