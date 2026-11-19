@@ -4,13 +4,13 @@
 body
 
 ## 2. Which selector styles the design that all cards use?
-features , resources
+feature-card
 
 ## 3. Which selector styles an element inside a section or a card?
 card-grid , feature-card
 
 ## 4. Which selector uses `>`?
-site-nav>a , features>p
+.features p , .feature-card h3 , .site-nav>a , .resources a , .feature-card p , .features>p , .tools a
 
 ## 5. Which selector changes the page on hover?
 .site-nav>a:hover , .button-link:hover
@@ -20,9 +20,6 @@ site-nav>a , features>p
 
 ## 7. Which two rules set the same property on one element, and which rule wins? Give the selectors, the property, the value that shows, and the reason.
 `.site-nav { background-color: green; }`
-<br>and<br>
-`.site-nav>a:hover,
-.site-nav>a:focus {
-  background-color: yellow;
-}`<br>
-by default, the background color in the class site-nav is green, if cursor hover or clicked on it, it will be yellow
+on line 13, `.feature-card { background-color: #ae50e4; }`,<br>
+on line 75, `.feature-card { background-color: #a9e3e7; }`,<br>
+the rule on line 75 wins because both rules use the same selector (equal specificity), but the rule that comes later will override the earlier ones, in this case, elements that use the class="feature-card" will use #a9e3e7 as its background color

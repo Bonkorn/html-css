@@ -22,17 +22,17 @@ h2 {
 
 .feature-card h3 {
   margin-top: 0;
-  color: #07ce32;
+  color: #065f46;
 }
 
 .site-nav {
   padding: 20px;
-  background-color: green;
+  background-color: #15803d;
 }
 
 .site-nav>a {
   margin-right: 32px;
-  color: #e814c8;
+  color: #ffffff;
   font-weight: 900;
   text-decoration: none;
 }
@@ -52,7 +52,7 @@ h2 {
 }
 
 .eyebrow {
-  color: #2563eb;
+  color: #1d4ed8;
   font-weight: 700;
   text-transform: uppercase;
   letter-spacing: 0.08em;
@@ -73,7 +73,7 @@ h2 {
 }
 
 .feature-card {
-  background-color: rgb(169, 227, 231);
+  background-color: #a9e3e7;
   padding: 20px;
   border: 1px solid #dbeafe;
   border-radius: 18px;
@@ -84,26 +84,26 @@ h2 {
   display: inline-block;
   margin-top: 12px;
   padding: 10px 14px;
-  background-color: #3b82f6;
-  color: white;
+  background-color: #2563eb;
+  color: #ffffff;
   border-radius: 999px;
   text-decoration: none;
   font-weight: 700;
 }
 
 .features .button-link {
-  background-color: #d15a5a;
+  background-color: #b91c1c;
 }
 
 .button-link:hover,
 .button-link:focus {
-  background-color: #5277da;
-  outline: 12px solid #ebe88e;
+  background-color: #1e40af;
+  outline: 4px solid #facc15;
   outline-offset: 3px;
 }
 
 a {
-  color: #2563eb;
+  color: #1d4ed8;
   background-color: transparent;
 }
 
@@ -112,21 +112,28 @@ a {
 }
 
 .resources a {
-  background-color: #07ce32;
+  background-color: #15803d;
+  color: #ffffff;
+  padding: 4px 8px;
+  border-radius: 4px;
 }
 
 .feature-card p {
-  color: #03bce5
+  color: #1e3a8a;
 }
 
 .features>p {
-  background-color: #b7bc59;
+  background-color: #fef08a;
+  color: #111827;
+  padding: 8px 12px;
+  border-radius: 8px;
 }
 
 .site-nav>a:hover,
 .site-nav>a:focus {
-  background-color: yellow;
-  outline: 6px solid #07ce32;
+  background-color: #fde047;
+  color: #111827;
+  outline: 3px solid #065f46;
 }
 
 .tools {
@@ -138,12 +145,13 @@ a {
 }
 
 .tools a {
-  color: #07ce32;
+  color: #0f172a;
+  font-weight: 700;
 }
 
 .tools>a:hover,
 .tools>a:focus {
-  background-color: #e01010;
-  outline: 8px solid #1652a7;
+  background-color: #b91c1c;
+  color: #ffffff;
+  outline: 4px solid #1e3a8a;
 }
-
