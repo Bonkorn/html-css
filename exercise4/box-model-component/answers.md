@@ -10,7 +10,7 @@ padding controls the space inside the border
 margin controls the space outside the border
 
 ## 4. Why does the image use `<width: 100%>`?
-to make the image fit inside the panel entirely
+width: 100% sets the image's width to match 100% of the width of its parent container  (e.g  the panel element, `<article class="panel-image">`), so the image will stretch or shrink horizontally when it fills the container
 
 ## 5. Why can both panels use the same CSS?
 because if there is multiple named class="item" in the html, one .item in the css can still match the multiple same named parent elements

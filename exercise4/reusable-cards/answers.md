@@ -13,10 +13,10 @@ padding controls the space inside the border
 margin controls the space outside the border
 
 ## 5. Which CSS property draws the visible edge of the card?
-`.project-card { border-radius: 18px; }`
+border in `.project-card { border: 1px solid #d1d5db; }`
 
 ## 6. Which CSS rule keeps the images inside their cards?
-`.project-image { width: 100%; }`
+width in `.project-image { width: 100%; }`
 
 ## 7. Why can one CSS rule style all three cards?
 because if there is multiple named class="item" in the html, one .item in the css can still match the multiple same named parent elements
