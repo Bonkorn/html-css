@@ -4,10 +4,10 @@
 line 8, `<link rel="stylesheet" href="style.css">`
 
 ## 2. Which selector styles the full page or the page background?
-`<body>`
+.body
 
 ## 3. Which selector uses a class?
-`<main class="mycard">` and `<p class="intro">`
+.mycard and .intro
 
 ## 4. Which CSS property made space inside an element?
 padding
@@ -16,4 +16,4 @@ padding
 margin
 
 ## 6. Choose one value that you changed. Give its selector, property and value, and describe the visible change.
-`h1 { color: dodgerblue; margin-bottom: 28px; }`, and h1 text color changed to dodgerblue
+`h1 { color: #3d549b; margin-bottom: 28px; }`, and h1 text color changed to #3d549b (dark blue)
