@@ -1,10 +1,10 @@
 # Responsive card gallery: my answers
 
 ## 1. Which element became the flex container?
-.card-gallery
+`<section class="card-gallery" aria-label="Card gallery">`
 
 ## 2. Which elements became the flex items?
-.gallery-card
+`<article class="gallery-card">`
 
 ## 3. Which CSS property controlled the space between the cards?
 gap
