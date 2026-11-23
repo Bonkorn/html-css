@@ -4,7 +4,7 @@
 line 8, `<link rel="stylesheet" href="style.css">`
 
 ## 2. Which selector styles the full page or the page background?
-.body
+body
 
 ## 3. Which selector uses a class?
 .mycard and .intro
@@ -16,4 +16,4 @@ padding
 margin
 
 ## 6. Choose one value that you changed. Give its selector, property and value, and describe the visible change.
-`h1 { color: #3d549b; margin-bottom: 28px; }`, and h1 text color changed to #3d549b (dark blue)
+`h1 { color: #243b7f; margin-bottom: 28px; }`, and h1 text color changed to #243b7f (dark blue)
