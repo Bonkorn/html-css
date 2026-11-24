@@ -47,10 +47,9 @@ h1 {
   line-height: 1.2;
 }
 
-.intro-title {
+.intro-text {
   max-width: 500px;
   margin-bottom: 32px;
-  color: whitesmoke;
   font-size: 1.1rem;
 }
 
@@ -113,7 +112,7 @@ h1 {
   margin-bottom: 16px;
 }
 
-.work-meta {
+.work-detail {
   margin-bottom: 0;
   color: darkslategrey;
   font-size: 0.9rem;
