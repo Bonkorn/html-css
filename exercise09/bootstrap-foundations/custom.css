@@ -1,0 +1,55 @@
+body {
+  background-color: #f8fafc;
+  color: #18212f;
+}
+
+.pattern-intro {
+  background:
+    linear-gradient(135deg, rgba(13, 110, 253, 0.12), rgba(32, 201, 151, 0.12)),
+    #f8fbff;
+}
+
+.lab-label {
+  color: #0d6efd;
+  font-size: 0.8rem;
+  font-weight: 700;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+}
+
+.practice-panel {
+  border: 1px solid #d7e3f4;
+  border-radius: 1.25rem;
+  background-color: #ffffff;
+  padding: 2rem;
+}
+
+.topic-card {
+  border-color: #d7e3f4;
+  border-radius: 1rem;
+}
+
+.form-slice {
+  background-color: #eef5ff;
+}
+
+.powerbank-section {
+  background-color: #ffffff;
+  border-top: 1px solid #d7e3f4;
+}
+
+.powerbank-card {
+  border-color: #cbd5e1;
+  border-radius: 1rem;
+  overflow: hidden;
+}
+
+.powerbank-badge {
+  background-color: #e0f2fe;
+  color: #0369a1;
+}
+
+.powerbank-price {
+  color: #0f172a;
+  font-weight: 700;
+}
